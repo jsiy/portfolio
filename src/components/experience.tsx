@@ -51,9 +51,9 @@ export function Experience() {
                 </div>
                 <div className="sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-900">
-                    <Link href={experience.link} target="_blank" className="inline-flex items-baseline font-medium leading-tight text-slate-900 hover:text-[#A95E5E] focus-visible:text-[#A95E5E] group/link text-base font-serif">
+                    <p className="inline-flex items-baseline font-medium leading-tight text-slate-900 hover:text-[#A95E5E] focus-visible:text-[#A95E5E] group/link text-base font-serif">
                       {experience.title} • {experience.company}
-                    </Link>
+                    </p>
                   </h3>
                   <p className="mt-2 text-sm leading-normal text-slate-600">
                     {experience.period}
