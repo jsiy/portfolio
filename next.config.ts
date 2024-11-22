@@ -7,10 +7,10 @@ const nextConfig: NextConfig = {
   output: "export",
 
   // Add the base path for GitHub Pages
-  basePath: isProd ? '/joeysiy-portfolio' : '',
+  basePath: isProd ? '/personal-website' : '',
   
   // Configure asset prefix for static files
-  assetPrefix: isProd ? '/joeysiy-portfolio/' : '',
+  assetPrefix: isProd ? '/personal-website/' : '',
 
   // Ensure trailing slash for proper static export
   trailingSlash: true,
