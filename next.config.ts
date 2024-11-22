@@ -1,7 +1,25 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Define static export output
+  output: "export",
+
+  // Add the base path for GitHub Pages
+  basePath: isProd ? '/joeysiy-portfolio' : '',
+  
+  // Configure asset prefix for static files
+  assetPrefix: isProd ? '/joeysiy-portfolio/' : '',
+
+  // Ensure trailing slash for proper static export
+  trailingSlash: true,
+
+  // Other optional Next.js configurations
+  reactStrictMode: true,
+  images: {
+    unoptimized: true, // Necessary if using `next/image` for static sites
+  },
 };
 
 export default nextConfig;

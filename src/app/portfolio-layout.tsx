@@ -3,7 +3,7 @@ import liqlogo from '@/assets/images/liq-logo-recolor.png'
 import ht6logo from '@/assets/images/ht6-logo-recolor.png'
 import kagglelogo from '@/assets/images/kaggle-logo-recolor.png'
 import cashexlogo from '@/assets/images/cashex-logo.png'
-import { ArrowUpRight, Github, Instagram, Linkedin, Mail, ArrowRight, BookOpen } from 'lucide-react'
+import { Github, Instagram, Linkedin, Mail, ArrowRight, BookOpen } from 'lucide-react'
 import Link from "next/link"
 import Image from "next/image"
 import { useEffect, useState } from "react"
@@ -82,7 +82,7 @@ export default function Component() {
             <h1 className="text-4xl font-bold tracking-tight font-serif">Joey Siy</h1>
             <h2 className="mt-4 text-xl font-semibold text-slate-700 font-serif">Software Engineer</h2>
             <p className="mt-4 text-slate-600">
-            Hello! I'm a soon-to-be Computer Science graduate from Western University, passionate about building impactful solutions for real-world problems.
+            Hello! I&apos;m a soon-to-be Computer Science graduate from Western University, passionate about building impactful solutions for real-world problems.
             </p>
             <nav className="mt-16 space-y-2">
               <Link
@@ -142,17 +142,17 @@ export default function Component() {
               <section id="about">
                 <h2 className="sr-only">About</h2>
                 <p className="text-lg leading-relaxed text-slate-700">
-                Nice to meet you! I'm a soon-to-be graduate from Western University with an Honours BSc in Computer Science, passionate about using technology to create real-world impact. I'm eager to join a dynamic team where I can grow, contribute meaningfully, and build solutions that make a difference.
+                Nice to meet you! I&apos;m a soon-to-be graduate from Western University with an Honours BSc in Computer Science, passionate about using technology to create real-world impact. I&apos;m eager to join a dynamic team where I can grow, contribute meaningfully, and build solutions that make a difference.
                 </p>
                 <p className="text-lg leading-relaxed text-slate-700 mt-5">
                 Most recently as a Software Engineer Intern at{' '}
                   <Link href="https://www.cashex.app/" target="_blank" className="font-semibold hover:text-[#A95E5E] inline-flex items-center">
                     CashEx
                   </Link>
-                , I gained hands-on experience in full-stack development. I built a React webapp for internal tooling, designed our app's notification architecture, and implemented front-end pages reaching over 100K users — A unique experience that has deeply strengthened my technical skills and adaptability.
+                , I gained hands-on experience in full-stack development. I built a React webapp for internal tooling, designed our app&apos;s notification architecture, and implemented front-end pages reaching over 100K users — A unique experience that has deeply strengthened my technical skills and adaptability.
                 </p>
                 <p className="text-lg leading-relaxed text-slate-700 mt-5">
-                Outside of work and school, I'm passionate about language learning! I speak a little bit of Tagalog, Mandarin, and Japanese; I love exploring new cultures and their food and I'm probably currently writing my latest review on{' '}
+                Outside of work and school, I&apos;m passionate about language learning! I speak a little bit of Tagalog, Mandarin, and Japanese; I love exploring new cultures and their food and I&apos;m probably currently writing my latest review on{' '}
                 <Link href="https://beliapp.co/app/joeysiy" target="_blank" className="font-semibold hover:text-[#A95E5E] inline-flex items-center">
                     beli
                 </Link>
@@ -186,7 +186,7 @@ export default function Component() {
                         2022 — 2023
                       </p>
                       <p className="mt-2 text-sm leading-normal text-slate-600">
-                        Developed internal tooling through a React web app used by all teams at the company. Implemented backend logic to be accessed by app and tools through API calls. Designed and built front-end pages on our app, reaching all 100K+ users. Worked closely with cross-functional teams to implement lean and effective solutions for the startup's needs.
+                        Developed internal tooling through a React web app used by all teams at the company. Implemented backend logic to be accessed by app and tools through API calls. Designed and built front-end pages on our app, reaching all 100K+ users. Worked closely with cross-functional teams to implement lean and effective solutions for the startup&apos;s needs.
                       </p>
                       <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                         <li className="mr-1.5 mt-2">
@@ -238,7 +238,7 @@ export default function Component() {
                         </div>
                       </h3>
                       <p className="mt-2 text-sm leading-normal text-slate-600">
-                      Developing a SaaS eBook translation web app that allows users to translate EPUB files between languages using OpenAI's API. Built with Next.js, Tailwind CSS, and FastAPI, the app features a streamlined interface for file uploads, LLM model selection, and real-time progress tracking. Backend logic splits EPUB files, maintains translation context, and reassembles outputs with original formatting. RESTful APIs manage tasks like pausing, resuming, and editing translations. Hosted on Vercel, leveraging serverless architecture for global deployment and scalability.                      </p>
+                      Developing a SaaS eBook translation web app that allows users to translate EPUB files between languages using OpenAI&apos;s API. Built with Next.js, Tailwind CSS, and FastAPI, the app features a streamlined interface for file uploads, LLM model selection, and real-time progress tracking. Backend logic splits EPUB files, maintains translation context, and reassembles outputs with original formatting. RESTful APIs manage tasks like pausing, resuming, and editing translations. Hosted on Vercel, leveraging serverless architecture for global deployment and scalability.                      </p>
                     </div>
                   </div>
                   <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8">
@@ -288,7 +288,7 @@ export default function Component() {
                         </div>
                       </h3>
                       <p className="mt-2 text-sm leading-normal text-slate-600">
-                      Built the landing page and hacker dashboard front-ends for Toronto's largest student-led summer hackathon, attracting 1,500+ applicants annually. Developed these pages using a custom React component library and collaborated with UI/UX designers and developers to translate Figma prototypes into functional, user-friendly interfaces.
+                      Built the landing page and hacker dashboard front-ends for Toronto&apos;s largest student-led summer hackathon, attracting 1,500+ applicants annually. Developed these pages using a custom React component library and collaborated with UI/UX designers and developers to translate Figma prototypes into functional, user-friendly interfaces.
                       </p>
                     </div>
                   </div>
