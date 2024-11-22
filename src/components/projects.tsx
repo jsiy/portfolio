@@ -6,16 +6,15 @@ import liqlogo from '@/assets/images/liq-logo-recolor.png'
 import ht6logo from '@/assets/images/ht6-logo-recolor.png'
 import kagglelogo from '@/assets/images/kaggle-logo-recolor.png'
 
-// Define the Project type
+
 type Project = {
   title: string
   description: string
-  icon?: React.ComponentType<{ className?: string }>; // This will be a React component type (e.g., lucide-react icons)
-  image?: StaticImageData // Image source (URL or imported image path)
+  icon?: React.ComponentType<{ className?: string }>; 
+  image?: StaticImageData 
   link: string
 }
 
-// Define the projects array with the Project type
 const projects: Project[] = [
   {
     title: "eBook Translator",

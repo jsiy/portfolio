@@ -24,7 +24,6 @@ const experiences: Experience[] = [
     link: "https://www.cashex.app/",
     technologies: ['React', 'Python', 'SQL', 'Flutter', 'GCP'],
   },
-  // Add more experiences here as needed
 ]
 
 export function Experience() {

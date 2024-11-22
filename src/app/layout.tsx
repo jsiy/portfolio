@@ -21,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning className="h-full">
+      <head>
+        <title>Joey Siy — Portfolio</title>
+      </head>
       <body className={`${roboto.variable} ${notoSerif.variable} font-sans min-h-screen flex flex-col`}>
         <Providers>{children}</Providers>
       </body>
