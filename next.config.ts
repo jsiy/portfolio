@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   basePath: isProd ? '/personal-website' : '',
   
   // Configure asset prefix for static files
-  assetPrefix: isProd ? '/personal-website/' : '',
+  assetPrefix: isProd ? '/personal-website' : '',
 
   // Ensure trailing slash for proper static export
   trailingSlash: true,
