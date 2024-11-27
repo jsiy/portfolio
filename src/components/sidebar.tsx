@@ -1,7 +1,7 @@
 'use client'
 
 import Link from "next/link"
-import { Github, Instagram, Linkedin, Mail, ArrowRight } from 'lucide-react'
+import { Github, Instagram, Linkedin, Mail, ArrowDownToLine } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { useState, useEffect } from "react"
 
@@ -58,9 +58,9 @@ export function Sidebar() {
       </div>
       <div className="mt-8">
         <Button variant="link" asChild className="p-0 text-slate-600 hover:text-[#9E5454]">
-          <Link href="https://www.dropbox.com/scl/fi/rjkw9xkp0x1sirx57xbdy/joeysiy-resume.pdf?rlkey=d248k0qzlba7xwbfgqzluhpef&st=jxn0ct1f&dl=0" target="_blank">
-            View resumé
-            <ArrowRight className="ml-1 h-4 w-4" />
+          <Link href="https://raw.githubusercontent.com/jsiy/portfolio/main/public/assets/documents/joeysiy-resume.pdf" download target="_blank">
+            <ArrowDownToLine className="h-4 w-4" />
+            Download Resumé
           </Link>
         </Button>
       </div>
