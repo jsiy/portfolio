@@ -1,7 +1,7 @@
 {
-  "name": "personal-website",
-  "homepage": "https://jsiy.github.io/personal-website",
-  "version": "0.2.0",
+  "name": "portfolio",
+  "homepage": "https://jsiy.github.io/portfolio",
+  "version": "1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

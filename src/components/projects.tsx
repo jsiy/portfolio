@@ -22,7 +22,7 @@ const projects: Project[] = [
     title: "Personal Website",
     description: "You're on it!",
     icon: Globe,
-    link: "https://github.com/jsiy/personal-website",
+    link: "https://github.com/jsiy/portfolio",
     technologies: ['Next.JS', 'TypeScript', 'React.JS', 'HTML', 'CSS'],
   },
   {
