@@ -8,7 +8,7 @@ export function About() {
         Nice to meet you! I&apos;m a soon-to-be graduate from Western University with an Honours BSc in Computer Science, passionate about using technology to create real-world impact. I&apos;m eager to join a dynamic team where I can grow, contribute meaningfully, and build solutions that make a difference.
       </p>
       <p className="text-lg leading-relaxed text-slate-700 mt-5">
-        Most recently as a Software Engineer Intern at{' '}
+        Most recently as a Software Engineer at{' '}
         <Link href="https://www.cashex.app/" target="_blank" className="font-semibold hover:text-[#A95E5E] inline-flex items-center">
           CashEx
         </Link>
